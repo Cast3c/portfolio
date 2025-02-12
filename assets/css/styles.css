@@ -910,7 +910,7 @@ body.light-theme{
     }
 
     .home__img{
-      width: 180px;
+      max-width: 150px;
     }
 
     .about__info{
