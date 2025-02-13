@@ -134,3 +134,33 @@ const sr = ScrollReveal({
 sr.reveal(`.home__data`)
 sr.reveal(`.home__data`, {delay: 700})
 sr.reveal(`.home__social, .home__scroll`, {delay: 900, origin: 'bottom'})
+
+/*========= TRANSLATOR =========*/
+const translations = {
+    en: {
+        /*=== HOME ===*/
+        greeting: "Hello, I´m",
+        scroll: "Scroll Down",
+        /*=== ABOUT ===*/
+        aboutTitle: "About me",
+        expTitle: "Experience",
+        timeTitle: "3 Years working",
+        projectTitle: "Completed",
+        cantProject: "+4 Projects",
+        suportTitle: "Support",
+        supportCont: "Online 4/7",
+        aboutDescription: "Frontend developer, I create web pages with UX / UI user interface, I have 3 years of experience. Many clients are happy with the projects i have delivered.",
+        contactTitle: "Contact me",
+        /*=== SKILLS ===*/
+        skillsSectionTitle: "My abilities",
+        expTitle: "My Experience",
+        skillsTitle: "-Languages-/-Frameworks-/-Technologies-",
+        skillsLevel1: "Basic",
+        skillsLevel2: "Intermediate",
+        skillsLevel3: "Expert",
+        /*=== SERVICES ===*/
+    }
+    
+}
+
+
